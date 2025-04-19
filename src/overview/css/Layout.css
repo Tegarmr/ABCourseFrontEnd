@@ -1,0 +1,51 @@
+/* src/components/Layout.css */
+.layout-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f3f3f3;
+  }
+  
+  .sidebar {
+    width: 240px;
+    background-color: #a8d5ba;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar .logo {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar nav a {
+    display: block;
+    margin: 12px 0;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .sidebar nav a.active {
+    background-color: #78c2ad;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .logout {
+    margin-top: auto;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
