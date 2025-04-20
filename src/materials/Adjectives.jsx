@@ -1,4 +1,4 @@
-import "../assets/materi.css"
+import "../assets/materi.css";
 
 export default function Adjectives() {
   return (
